@@ -35,7 +35,7 @@
 							$name=$_POST['name'];
 							$email=$_POST['email'];
 							$msg=$_POST['msg'];
-							$to='gktyagi2018@mail.com'; // Receiver Email ID, Replace with your email ID
+							$to='xyz-email@mail.com'; // Receiver Email ID, Replace with your email ID
 							$subject='Form Submission';
 							$message="Name :".$name."\n"."\n\n".$msg;
 							$headers="From: ".$email;
